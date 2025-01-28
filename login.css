@@ -1,0 +1,91 @@
+/* Login Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Netflix dark background */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: #222; /* Slightly lighter black for contrast */
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-title {
+    font-size: 32px;
+    color: #e50914; /* Netflix red */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #b3b3b3;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.input-group input::placeholder {
+    color: #777;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e50914; /* Netflix red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #f40612; /* Brighter Netflix red */
+}
+
+.login-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.login-footer a {
+    color: #e50914;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}

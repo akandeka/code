@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #000000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    opacity: 0.7;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-style: bold;
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    
+}  
+
+header nav a {
+    margin: 0 15px;
+    font-size: 16px;
+}
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: darkred;
+}
+
+
+header .login-btn:hover {
+    background-color: #f40612;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 10px;
+    background: url('9.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .cta-btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero .cta-btn:hover {
+    background-color: #f40612;
+}
+
+/* Product Rows */
+.product-rows {
+    padding: 20px;
+}
+
+.product-rows h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.card {
+    background-color: #333;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-bottom: 5px solid #e50914;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #f40612;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #141414;
+}

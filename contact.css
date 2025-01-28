@@ -1,0 +1,72 @@
+/* Contact Page Styling */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact h1 {
+    font-size: 48px;
+    color: #000000; 
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #0e0d0d;
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #333; /* Slightly lighter gray */
+    color: #0b0b0b;
+}
+
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+    color: #b7b7b7;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff000d;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f40612;
+}
